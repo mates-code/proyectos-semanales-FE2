@@ -1,0 +1,29 @@
+:root {
+    --primary: #e02424;
+    --secondary: rgb(225, 235, 235);
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: var(--secondary);
+    margin: 50px auto;
+    padding: 50px;
+    max-width: 500px;
+}
+
+.container img {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.red {
+    color: var(--primary);
+}
